@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Document</title>
+</head>
+<style>
+#menu a{
+            text-decoration:none;
+            color: White;
+        }
+        #menu li{
+	       Display:inline;
+	       text-decoration:none;
+	       color:Whit;
+	       padding:20px;
+	       width:550px;
+	       border-style:solid;
+	       background-image:url("http://www.gifmania.us/Animated-Gifs-Technology/Free-Animations-Electricity/Electric-Current-83644.gif");
+           background-size:100px
+	  }
+        #menu{
+            text-align:center;
+        }
+</style>
+    <div id="menu">
+        <ul>
+            <li><a href="Welcome.html"><strong>WELCOME</strong></a></li>
+            <li><a href="aboutme.html"><strong>ABOUT ME</strong></a></li>
+            <li><a href="coding.html"><strong>CODING lANGUAGES</strong></a></li>    
+            <li><a href="Hardware.html"><strong>HARDWARE</strong></a></li>
+            <li><a href="calc.html"><strong>CALCULATOR</strong></a></li>
+            <li><a href="info.html"><strong>INFO</strong></a></li>
+            <li><a href="todolist.html"><strong>TO DO LIST</strong></a></li>
+        </ul>
+    </div>
+<body style="background-image:url(http://images2.alphacoders.com/969/96952.jpg); background-size:1400px;">
+    
+<input type ="text" name="input1" style="width:50px;" id="input1">
+    <select id="dropdown">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="x">x</option>
+        <option value="/">/</option>
+    </select>
+    <input type ="text" name="input2" style="width:50px;" id="input2">
+    <input type="button" value="Calculate" id="submitButton" />
+
+    <p style="color:white;">The answer is: <span id="display"></span></p>
+<script src="calc.js" ></script>
+
+</body>
+</html>
